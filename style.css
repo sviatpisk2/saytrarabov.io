@@ -6,7 +6,9 @@ h1{
 }
 body{
     font-family: sans-serif;
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(100deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    animation: gradient 30s ease infinite;
+    background-size: 200%;
     color: white;
 }
 header{
@@ -25,13 +27,60 @@ h2{
 footer{
     background-color: #131313;
 }
-a{
-    background: linear-gradient(45deg, #ff0000, #22B01B, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    color: white;
-}
+
 footer img{
     border-radius: 50%;
 }
 header img{
-    border-radius: 9%;
+    border-radius: 9px;
+}
+header{
+    border-radius: 7px;
+}
+main{
+    border-radius: 7px;
+}
+footer{
+    border-radius: 7px;
+}
+.btn{
+    padding: 8px;
+    margin: 5px;
+    background: linear-gradient(45deg, #002bff, #7a00ff, #ff00c8, #ff0000);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.btn-w{
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5);
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 7px;
+}
+.btn4{
+    margin: 0;
+    background: linear-gradient(110deg, #8805A8, #660BAB, #4811AE, #3415B0, #1826B0, #1240AB);
+    background-size: 200%;
+    font-family: sans-serif;
+    color: white;
+    margin: 1px;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+}
+.btn4:hover{
+    animation: gradient 3s ease infinite;
+}
+@keyframes gradient{
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
