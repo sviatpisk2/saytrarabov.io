@@ -31,6 +31,9 @@ footer{
 footer img{
     border-radius: 50%;
 }
+div img{
+    border-radius: 50%;
+}
 header img{
     border-radius: 9px;
 }
@@ -72,6 +75,10 @@ footer{
 }
 .btn4:hover{
     animation: gradient 3s ease infinite;
+}
+.warning{
+    background: linear-gradient(100deg, #ff7300,#ffae00, #ffc400, #ffe600, #fffb00);
+    border: 2px solid #121212;
 }
 @keyframes gradient{
     0%{
